@@ -1,9 +1,9 @@
 ---
 indexpage:
   title: Amazon S3-Speicherdokumentation
-  summary: Beginnen Sie mit der Nutzung von Amazon S3-Speicher mit der NetApp Konsole.
+  summary: Beginnen Sie mit der Verwendung von Amazon S3-Speicher mit der NetApp Console.
   keywords: amazon s3, storage, bluexp, netapp console
-  lead: Beginnen Sie mit der Nutzung von Amazon S3-Speicher mit der NetApp Konsole.
+  lead: Beginnen Sie mit der Verwendung von Amazon S3-Speicher mit der NetApp Console.
   tiles:
   - title: Erste Schritte
     links:
@@ -19,13 +19,13 @@ indexpage:
       url: task-s3-enable-data-services.html
   - title: Weitere Informationen
     links:
-    - title: Amazon S3-Dokumentation für die Verwaltung außerhalb der NetApp Konsole
+    - title: Amazon S3-Dokumentation für die Verwaltung außerhalb der NetApp Console
       url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
   - title: Blogs und Community
     links:
-    - title: NetApp Konsole
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: NetApp Datenservices
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: NetApp Community
       url: https://community.netapp.com/

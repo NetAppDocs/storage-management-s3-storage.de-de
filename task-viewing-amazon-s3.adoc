@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-viewing-amazon-s3.html 
 keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system 
-summary: Nachdem Sie einen Konsolenagenten in AWS installiert haben, kann die NetApp Konsole automatisch Informationen zu den Amazon S3-Buckets ermitteln, die sich im AWS-Konto befinden, auf dem der Konsolenagent installiert ist.  Ein Amazon S3-System wird der Seite „Systeme“ hinzugefügt, damit Sie diese Informationen anzeigen können. 
+summary: Nachdem Sie einen Konsolenagenten in AWS installiert haben, kann die NetApp Console automatisch Informationen zu den Amazon S3-Buckets ermitteln, die sich im AWS-Konto befinden, auf dem der Konsolenagent installiert ist.  Ein Amazon S3-System wird der Seite „Systeme“ hinzugefügt, damit Sie diese Informationen anzeigen können. 
 ---
 = Anzeigen Ihrer Amazon S3-Buckets
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: Nachdem Sie einen Konsolenagenten in AWS installiert haben, kann die Ne
 
 
 [role="lead"]
-Nachdem Sie einen Konsolenagenten in AWS installiert haben, kann die NetApp Konsole automatisch Informationen zu den Amazon S3-Buckets ermitteln, die sich im AWS-Konto befinden, auf dem der Konsolenagent installiert ist.  Ein Amazon S3-System wird der Seite „Systeme“ hinzugefügt, damit Sie diese Informationen anzeigen können.
+Nachdem Sie einen Konsolenagenten in AWS installiert haben, kann die NetApp Console automatisch Informationen zu den Amazon S3-Buckets ermitteln, die sich im AWS-Konto befinden, auf dem der Konsolenagent installiert ist.  Ein Amazon S3-System wird der Seite „Systeme“ hinzugefügt, damit Sie diese Informationen anzeigen können.
 
 Sie können Details zu Ihren S3-Buckets anzeigen, einschließlich Region, Zugriffsrichtlinie, Konto, Gesamt- und genutzte Kapazität und mehr.  Diese Buckets können als Ziele für NetApp -Backup und -Wiederherstellung, NetApp -Tiering oder NetApp Kopier- und Synchronisierungsvorgänge verwendet werden.  Darüber hinaus können Sie NetApp Data Classification verwenden, um diese Buckets zu scannen.
 
 .Schritte
 . https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-aws.html["Installieren eines Konsolenagenten"^]im AWS-Konto, in dem Sie Ihre Amazon S3-Buckets anzeigen möchten.
-. Wählen Sie im NetApp -Konsolenmenü *Storage* und dann *Management* aus.
+. Wählen Sie im NetApp Console *Storage* und dann *Management* aus.
 +
 Kurz darauf sollte Ihr Amazon S3-System automatisch angezeigt werden.
 
@@ -28,9 +28,9 @@ Kurz darauf sollte Ihr Amazon S3-System automatisch angezeigt werden.
 
 image:screenshot-amazon-s3-we.png["Ein Screenshot eines Amazon S3-Systems."]
 
-. Klicken Sie auf das System und wählen Sie im rechten Bereich eine Aktion aus, wenn Sie NetApp -Konsolendienste mit Ihrem S3-Speicher aktivieren möchten.
+. Klicken Sie auf das System und wählen Sie im rechten Bereich eine Aktion aus, wenn Sie NetApp Console mit Ihrem S3-Speicher aktivieren möchten.
 +
-link:task-s3-enable-data-services.html["Sehen Sie, welche NetApp Console-Dienste verfügbar sind und erfahren Sie, wie Sie diese mit Ihren S3-Buckets verwenden."] .
+link:task-s3-enable-data-services.html["Sehen Sie, welche NetApp Console -Dienste verfügbar sind und erfahren Sie, wie Sie diese mit Ihren S3-Buckets verwenden."] .
 
 . Klicken Sie auf *S3-System eingeben* oder doppelklicken Sie auf das System, um Details zu den S3-Buckets in Ihrem AWS-Konto anzuzeigen.
 +
@@ -39,6 +39,6 @@ Zusätzlich zu den standardmäßig angezeigten Spalten können Sie auf der Seite
 
 
 .Was kommt als nächstes
-Sie können einige Bucket-Einstellungen direkt in der NetApp -Konsole ändern, indem Sie aufimage:button-horizontal-more.gif["die drei Punkte mehr-Schaltfläche"] für einen Eimer. link:task-change-s3-bucket-settings.html["Hier finden Sie weitere Einzelheiten"] .
+Sie können einige Bucket-Einstellungen direkt in der NetApp Console ändern, indem Sie aufimage:button-horizontal-more.gif["die drei Punkte mehr-Schaltfläche"] für einen Eimer. link:task-change-s3-bucket-settings.html["Hier finden Sie weitere Einzelheiten"] .
 
 Sie können neue S3-Buckets hinzufügen, indem Sie auf *Bucket hinzufügen* klicken. link:task-add-s3-bucket.html["Hier finden Sie weitere Einzelheiten"] .

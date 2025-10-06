@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-add-s3-bucket.html 
 keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, netapp console 
-summary: Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, können Sie weitere Buckets direkt von der NetApp Konsole aus hinzufügen. 
+summary: Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, können Sie weitere Buckets direkt von der NetApp Console aus hinzufügen. 
 ---
 = S3-Buckets hinzufügen
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, k
 
 
 [role="lead"]
-Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, können Sie zusätzliche Buckets direkt von der NetApp Konsole aus hinzufügen.
+Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, können Sie weitere Buckets direkt von der NetApp Console aus hinzufügen.
 
 .Schritte
 . Doppelklicken Sie auf der Seite „Systeme“ auf das Amazon S3-System, um die Seite „Übersicht über Amazon S3-Buckets“ anzuzeigen, und klicken Sie auf „Bucket hinzufügen“.
@@ -24,7 +24,7 @@ Die Seite _Bucket hinzufügen_ wird angezeigt.
 . Geben Sie auf der Seite „Bucket hinzufügen“ die erforderlichen Informationen zum Erstellen des Buckets ein und klicken Sie auf „Übernehmen“.
 +
 .. Geben Sie den Namen ein, den Sie für den Bucket verwenden möchten.
-.. Wählen Sie das AWS-Konto aus, das Eigentümer des Buckets sein soll.  Dies kann das primäre Konto sein, auf dem der Konsolenagent bereitgestellt wurde, oder es kann ein https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["anderes Konto, das Sie zur NetApp Konsole hinzugefügt haben"^] .
+.. Wählen Sie das AWS-Konto aus, das Eigentümer des Buckets sein soll.  Dies kann das primäre Konto sein, auf dem der Konsolenagent bereitgestellt wurde, oder es kann ein https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["anderes Konto, das Sie zur NetApp Console hinzugefügt haben"^] .
 .. Wählen Sie die AWS-Region aus, in der der Bucket erstellt werden soll.
 .. Optional können Sie die S3-Objektsperre für den Bucket aktivieren, um Objekte mithilfe eines WORM-Modells (Write-Once-Read-Many) zu speichern.  Wenn Sie die Objektsperre verwenden möchten, müssen Sie sie beim Erstellen des Buckets aktivieren.  Durch die Aktivierung der Objektsperre wird auch die Versionierung aktiviert. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Weitere Informationen zum Sperren von Objekten finden Sie in der Amazon S3-Dokumentation."^] .
 +

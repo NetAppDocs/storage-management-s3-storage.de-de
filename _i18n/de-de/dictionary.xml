@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="doc">Möglichkeit, neue Buckets von BlueXP hinzuzufügen</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">Erfahren Sie, wie Sie neue Amazon S3-Buckets hinzufügen</block>
+  <block id="5e7b506ddcb37df2fdbf21f6eaed65d6" category="paragraph">Sie haben schon seit einiger Zeit die Möglichkeit, Amazon S3-Buckets auf dem BlueXP Canvas anzuzeigen.  Jetzt können Sie direkt von BlueXP aus neue Buckets hinzufügen und Eigenschaften für vorhandene Buckets ändern.<block ref="f0047d35a3b71c36a6aefb7ce54c7ec6" category="inline-link-rx"></block> .</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP heißt jetzt NetApp Console</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp -Speicher und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Arbeitsabläufe und eine vereinfachte Verwaltung mit hoher Sicherheit und Konformität.</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">Versionshinweise zur NetApp Console</block>
+  <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> .</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Rechtliche Hinweise</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Rechtliche Hinweise bieten Zugriff auf Urheberrechtserklärungen, Marken, Patente und mehr.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marken</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, das NETAPP-Logo und die auf der NetApp -Markenseite aufgeführten Marken sind Marken von NetApp, Inc. Andere Firmen- und Produktnamen können Marken ihrer jeweiligen Eigentümer sein.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patente</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Eine aktuelle Liste der Patente im Besitz von NetApp finden Sie unter:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Datenschutzrichtlinie</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open Source</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Hinweisdateien enthalten Informationen zu Urheberrechten und Lizenzen Dritter, die in der NetApp -Software verwendet werden.</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">Hinweis zur NetApp Console</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="9b0db63220dcb42c8f014abc9ddfec70" category="summary">Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, können Sie weitere Buckets direkt von der NetApp Console aus hinzufügen.</block>
+  <block id="9fed572004c981252beb21bc105f5af0" category="doc">S3-Buckets hinzufügen</block>
+  <block id="4c1be2d8a6d5bddb276995b29b0ba88a" category="paragraph">Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, können Sie weitere Buckets direkt von der NetApp Console aus hinzufügen.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Schritte</block>
+  <block id="4f304db3b8e0b8131a9f1fcb4d8feaf4" category="list-text">Doppelklicken Sie auf der Seite „Systeme“ auf das Amazon S3-System, um die Seite „Übersicht über Amazon S3-Buckets“ anzuzeigen, und klicken Sie auf „Bucket hinzufügen“.</block>
+  <block id="7905235e0b9d47c87993bfcf15c3dd50" category="paragraph">Die Seite _Bucket hinzufügen_ wird angezeigt.</block>
+  <block id="aefffbad8b88d1c38a2002080479d936" category="list-text">Geben Sie auf der Seite „Bucket hinzufügen“ die erforderlichen Informationen zum Erstellen des Buckets ein und klicken Sie auf „Übernehmen“.</block>
+  <block id="0b70185623faa55e384834695ae8d364" category="list-text">Geben Sie den Namen ein, den Sie für den Bucket verwenden möchten.</block>
+  <block id="e2048bec1874c7f3b40ac64c7eb61a19" category="inline-link">anderes Konto, das Sie zur NetApp Console hinzugefügt haben</block>
+  <block id="39ec797e48cb983c86e5a8a963246bf0" category="list-text">Wählen Sie das AWS-Konto aus, das Eigentümer des Buckets sein soll.  Dies kann das primäre Konto sein, auf dem der Konsolenagent bereitgestellt wurde, oder es kann ein<block ref="ef549bd79a83f188875fad2972424979" category="inline-link-rx"></block> .</block>
+  <block id="0122311ed1a57dce15e992365a9457e2" category="list-text">Wählen Sie die AWS-Region aus, in der der Bucket erstellt werden soll.</block>
+  <block id="949a961e422bda6c898ac6590ce47cb8" category="inline-link">Weitere Informationen zum Sperren von Objekten finden Sie in der Amazon S3-Dokumentation.</block>
+  <block id="d87ea88e84d5837b06e24d3c7e16b421" category="list-text">Optional können Sie die S3-Objektsperre für den Bucket aktivieren, um Objekte mithilfe eines WORM-Modells (Write-Once-Read-Many) zu speichern.  Wenn Sie die Objektsperre verwenden möchten, müssen Sie sie beim Erstellen des Buckets aktivieren.  Durch die Aktivierung der Objektsperre wird auch die Versionierung aktiviert.<block ref="1399ee2a35dec21bba05889732a3a632" category="inline-link-rx"></block> .</block>
+  <block id="157d206d0cc91be4095d98f9df679cf4" category="paragraph">Der Bucket wird erstellt.</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">Was kommt als nächstes</block>
+  <block id="a73444cc5dd6f6171b437eedb6a7d462" category="inline-link-macro">Weitere Informationen zum Ändern der Bucket-Einstellungen</block>
+  <block id="daf6241c571815ccb6a2fba56c3d3d3a" category="paragraph">Sie können Versionierung, Tags oder Verschlüsselung beim ersten Hinzufügen eines Buckets nicht manuell konfigurieren.  Nachdem der Bucket erstellt wurde, können Sie diese anderen Eigenschaften des Buckets konfigurieren. <block ref="b8a8855fb27be3598054e27761fb286f" category="inline-link-macro-rx"></block> .</block>
+  <block id="6f4c69d2867f9fbd595ed22e321d538d" category="summary">Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Bucket-Eigenschaften direkt über die NetApp Console ändern.</block>
+  <block id="03d1d7c5f3e9143c651013d5a8df19ed" category="doc">S3-Bucket-Einstellungen ändern</block>
+  <block id="98b683df18d829ab5d0c1a0667ef090e" category="paragraph">Beachten Sie, dass Sie den Bucket-Namen, das AWS-Konto, die Region oder die Objektsperreinstellung nicht ändern können.</block>
+  <block id="c1e90160a62fa1921449efb18231f40d" category="paragraph">Zu den Bucket-Eigenschaften, die Sie ändern können, gehören:</block>
+  <block id="7aa72240c8357c1ccb645c4ed54fc655" category="list-text">Ob die Versionierung für alle Objekte im Bucket aktiviert oder deaktiviert ist.</block>
+  <block id="d92cc14996cce4261a7042bf7143a0eb" category="list-text">Sie können den zum Bucket hinzugefügten Objekten Tags zuweisen.</block>
+  <block id="7178af2148dd1317957ac72803a11101" category="list-text">Ob neue, zum Bucket hinzugefügte Objekte verschlüsselt werden oder nicht, und die für die Verschlüsselung verwendete Option.</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">die drei Punkte mehr-Schaltfläche</block>
+  <block id="eb94a1e4342c20c5c2f3558833688e28" category="paragraph">Sie können diese Bucket-Einstellungen direkt ändern, indem Sie auf<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> für einen Eimer.</block>
+  <block id="03e28e82e5ae57af9a5632a915905ac6" category="inline-image-macro">Ein Screenshot, der zeigt, wie Sie die Schaltfläche „Managerdetails“ auswählen, um Bucket-Eigenschaften zu bearbeiten.</block>
+  <block id="b1663f0a11aefa655b800e4525611bc7" category="paragraph"><block ref="b1663f0a11aefa655b800e4525611bc7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c1271f859cb12c5ef9b0c1934c2075f1" category="section-title">Ändern der Versionseinstellung</block>
+  <block id="bb818b7bb7e952216e5edeed36b98b25" category="paragraph">Durch die Versionierung können Sie mehrere Versionen eines Objekts in einem Bucket aufbewahren, sodass Sie versehentlich gelöschte oder überschriebene Objekte wiederherstellen können.  Sie können die Versionseinstellung für zukünftige Objekte ändern, wenn diese zum Bucket hinzugefügt werden.  Durch das Ändern der Versionseinstellung wird der Wert für vorhandene Objekte nicht geändert.</block>
+  <block id="753bbae9e70bd29b4b752a888c7f83aa" category="inline-link">Weitere Informationen zur Versionierung finden Sie in der Amazon S3-Dokumentation</block>
+  <block id="36554e4a71b2bdf575545c86b388817b" category="paragraph">Die Versionierung ist in neuen Buckets standardmäßig deaktiviert, es sei denn, Sie haben die Objektsperre beim Erstellen des Buckets aktiviert.<block ref="e0ba6451fd1bf2a059fdd9f9e325cee9" category="inline-link-rx"></block> .</block>
+  <block id="280e8bf189cc090641938d5fb185e08c" category="paragraph">Wenn diese Option aktiviert ist und Sie die Versionsverwaltung vorübergehend oder dauerhaft beenden möchten, können Sie den Status „Ausgesetzt“ auswählen.  Sie können die Versionierung nicht deaktivieren, nachdem sie aktiviert wurde.</block>
+  <block id="06bf9930fc8459e052599e1b5f0a1a7f" category="inline-image-macro">Ein Screenshot, der zeigt, wie die Versionseinstellung für einen Bucket geändert wird.</block>
+  <block id="41270662bdf0da5996f1a870b9ab5b44" category="paragraph"><block ref="41270662bdf0da5996f1a870b9ab5b44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03b6a6f1e13411d253ae1983fe76fa25" category="section-title">Tags für Objekte im Bucket hinzufügen oder ändern</block>
+  <block id="e3463088bdb53d30f897b3ff783db6e9" category="paragraph">Tags sind Metadaten, die Sie zum Gruppieren von Ressourcen verwenden können, um Anwendungen, Umgebungen, Regionen, Cloud-Anbieter und mehr zu identifizieren.  Tags bestehen aus einem Tag-Schlüssel und einem Tag-Wert.  Sie können einem Bucket Tags hinzufügen, sodass die Tags auf Objekte angewendet werden, wenn sie dem Bucket hinzugefügt werden.  Sie können auch Tags und Tag-Werte ändern und löschen.</block>
+  <block id="07472cd51c11ae72b9be3780b88a4452" category="inline-link">Weitere Informationen zum Tagging finden Sie in der Amazon S3-Dokumentation.</block>
+  <block id="2792aa377cf75383da294983a1c06964" category="paragraph">Tags sind in neuen Buckets, die von der NetApp Console erstellt werden, standardmäßig deaktiviert.<block ref="4051f5e277970bf30a28585f8f548269" category="inline-link-rx"></block> .</block>
+  <block id="b1a649b71c6a44f55f012f92ab2c0f41" category="inline-image-macro">Ein Screenshot, der zeigt, wie ein neues Tag-Schlüssel/Wert-Paar für einen Bucket hinzugefügt wird.</block>
+  <block id="85aee05e1be511f705baeadd5c969d87" category="paragraph"><block ref="85aee05e1be511f705baeadd5c969d87" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="200e9bd07e779ca538757ee7a91c07d5" category="paragraph">Nachdem Sie ein Tag hinzugefügt haben, klicken Sie auf *Übernehmen*, um Ihre Änderungen zu speichern.  Wenn Sie weitere Tags hinzufügen möchten, klicken Sie auf *Neues Tag hinzufügen*.  Sie können bis zu 10 Tags pro Bucket hinzufügen.</block>
+  <block id="26d7220e95a948de8f8bee2eb2c05ec8" category="section-title">Ändern der Verschlüsselungseinstellungen</block>
+  <block id="a11df6361d05660cc0ba1f6c0558de49" category="paragraph">Mit der serverseitigen Verschlüsselung können Sie Daten am Amazon S3-Ziel verschlüsseln.  Amazon S3 verschlüsselt Ihre Daten auf Objektebene, während es sie auf die Festplatte schreibt, und entschlüsselt sie für Sie, wenn Sie darauf zugreifen.  Sie können die für zukünftige Objekte verwendete Verschlüsselungseinstellung ändern, wenn diese zum Bucket hinzugefügt werden.</block>
+  <block id="2c147b9d28e184c5c63a643164663ed6" category="inline-link">Weitere Informationen zur serverseitigen Verschlüsselung finden Sie in der Amazon S3-Dokumentation.</block>
+  <block id="8fd60e40ed7d4aa8f420186855819fc3" category="paragraph">Die Verschlüsselung wird standardmäßig mithilfe von „Amazon S3 Managed Keys (SSE-S3)“ in neuen Buckets aktiviert, die von der NetApp Console erstellt werden.<block ref="af46c8e128e791b9a73e046d29dfa446" category="inline-link-rx"></block> .</block>
+  <block id="5bf067fcbdb3a0c0eead1be2fc6f3f55" category="paragraph">Alternativ können Sie die Verschlüsselung mit dem „AWS Key Management Service-Schlüssel (SSE-KMS)“ aktivieren.  Die Verschlüsselung ist auch mit Ihren eigenen, vom Kunden bereitgestellten Schlüsseln (SSE-C) möglich, diese Funktion ist jedoch über die Konsolen-Benutzeroberfläche nicht verfügbar – Sie müssen die Amazon-Schnittstelle verwenden.</block>
+  <block id="62391a98e2571a2594662b67b2d076c0" category="inline-image-macro">Ein Screenshot, der zeigt, wie der für einen Bucket verwendete Verschlüsselungsschlüsseltyp geändert wird.</block>
+  <block id="9aaf4516b7333dbc25618cc5541d6c28" category="paragraph"><block ref="9aaf4516b7333dbc25618cc5541d6c28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f76b7a6398238187f9ab7139f99efa9e" category="paragraph">Wenn Sie „AWS Key Management Service-Schlüssel (SSE-KMS)“ wählen, können Sie einen bereits erstellten AWS KMS-Schlüssel auswählen oder einen AWS KMS-Schlüssel-ARN (Amazon Resource Name) verwenden.</block>
+  <block id="4913270dff142c18b7deff3e020455bb" category="inline-image-macro">Ein Screenshot, der zeigt, wie alternative Verschlüsselungseinstellungen für einen Bucket ausgewählt werden.</block>
+  <block id="bf0f1d13b25a835c25ca6497481b616a" category="paragraph"><block ref="bf0f1d13b25a835c25ca6497481b616a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9565d6f3c6daab6a85ad88d83d6afaa3" category="inline-link">Weitere Informationen zum AWS Key Management Service finden Sie in der Amazon S3-Dokumentation.</block>
+  <block id="6b9ad32bca511ce2ad2c097b7d9a4a78" category="inline-link">Verwenden von Kundenschlüsseln im Vergleich zu AWS-Schlüsseln</block>
+  <block id="2a99f2c69d7ca6830beafd559188a1d0" category="paragraph"><block ref="6680152fb638c9052ac94d98bd762821" category="inline-link-rx"></block>und über<block ref="ff2983fb7d6b017ffe909b1c26efe536" category="inline-link-rx"></block> .</block>
+  <block id="e48486c33f71dc8e173adb6c6fc66485" category="summary">NetApp bietet auf verschiedene Weise Support für die NetApp Console . Umfangreiche kostenlose Self-Support-Optionen stehen rund um die Uhr zur Verfügung, beispielsweise Knowledgebase-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung beinhaltet technischen Remote-Support per Web-Ticketing.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Hilfe erhalten</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">Um technischen Support speziell für die NetApp Console und ihre Speicherlösungen und Datendienste zu erhalten, ist eine Support-Registrierung erforderlich. Eine Support-Registrierung ist auch erforderlich, um wichtige Workflows für Cloud Volumes ONTAP Systeme zu aktivieren.</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">Durch die Registrierung für den Support wird kein NetApp Support für den Dateidienst eines Cloud-Anbieters aktiviert. Technischen Support für den Dateidienst eines Cloud-Anbieters, seine Infrastruktur oder eine Lösung, die den Dienst nutzt, erhalten Sie unter „Hilfe erhalten“ in der Dokumentation des jeweiligen Produkts.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx für ONTAP</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Übersicht zur Support-Registrierung</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Zur Aktivierung des Supportanspruchs stehen zwei Registrierungsformen zur Verfügung:</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">Registrieren Sie die Seriennummer Ihres NetApp Console (Ihre 20-stellige Seriennummer 960xxxxxxxxx, die Sie auf der Seite „Supportressourcen“ in der Konsole finden).</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">Dies dient als Ihre einzige Support-Abonnement-ID für alle Dienste innerhalb der Konsole. Jedes Konsolenkonto muss registriert werden.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrieren Sie die mit einem Abonnement verknüpften Cloud Volumes ONTAP Seriennummern im Marktplatz Ihres Cloud-Anbieters (dies sind 20-stellige 909201xxxxxxxx-Seriennummern).</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">Diese Seriennummern werden allgemein als _PAYGO-Seriennummern_ bezeichnet und von der NetApp Console zum Zeitpunkt der Bereitstellung von Cloud Volumes ONTAP generiert.</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">Durch die Registrierung beider Seriennummerntypen werden Funktionen wie das Öffnen von Support-Tickets und die automatische Fallgenerierung ermöglicht. Die Registrierung wird abgeschlossen, indem Sie der Konsole NetApp Support Site (NSS)-Konten hinzufügen, wie unten beschrieben.</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">Registrieren Sie die NetApp Console für den NetApp Support</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">Um sich für den Support zu registrieren und den Supportanspruch zu aktivieren, muss ein Benutzer in Ihrem NetApp Console seinem Konsolen-Login ein NetApp Support-Site-Konto zuordnen. Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über ein NetApp Support Site (NSS)-Konto verfügen.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Bestandskunde mit NSS-Konto</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">Wenn Sie ein NetApp -Kunde mit einem NSS-Konto sind, müssen Sie sich lediglich über die Konsole für den Support registrieren.</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">Wählen Sie *Administration* &gt; *Anmeldeinformationen*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Wählen Sie *Benutzeranmeldeinformationen*.</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">Wählen Sie *NSS-Anmeldeinformationen hinzufügen* und folgen Sie der Authentifizierungsaufforderung der NetApp Support Site (NSS).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Um zu bestätigen, dass der Registrierungsvorgang erfolgreich war, wählen Sie das Hilfesymbol und dann *Support*.</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">Auf der Seite *Ressourcen* sollte angezeigt werden, dass Ihr Konsolenkonto für den Support registriert ist.</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">Beachten Sie, dass anderen Konsolenbenutzern dieser Support-Registrierungsstatus nicht angezeigt wird, wenn sie ihrem Login kein NetApp Support Site-Konto zugeordnet haben. Dies bedeutet jedoch nicht, dass Ihr Konto nicht für den Support registriert ist. Sofern ein Benutzer in der Organisation diese Schritte befolgt hat, wurde Ihr Konto registriert.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Bestandskunde, aber kein NSS-Konto</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">Wenn Sie bereits NetApp -Kunde mit vorhandenen Lizenzen und Seriennummern, aber _keinem_ NSS-Konto sind, müssen Sie ein NSS-Konto erstellen und es mit Ihrem Konsolen-Login verknüpfen.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Registrierungsformular für Benutzer der NetApp Support-Site</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Erstellen Sie ein NetApp Support Site-Konto, indem Sie das<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Achten Sie darauf, die entsprechende Benutzerebene auszuwählen, in der Regel „NetApp -Kunde/Endbenutzer“.</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">Denken Sie daran, die Seriennummer des Konsolenkontos (960xxxx) zu kopieren, die oben für das Feld „Seriennummer“ verwendet wurde. Dies beschleunigt die Kontobearbeitung.</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">Verknüpfen Sie Ihr neues NSS-Konto mit Ihrem Konsolen-Login, indem Sie die folgenden Schritte ausführen<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Ganz neu bei NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Wenn Sie NetApp noch nicht kennen und kein NSS-Konto haben, befolgen Sie die nachstehenden Schritte.</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">Wählen Sie oben rechts in der Konsole das Hilfesymbol und dann *Support* aus.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Suchen Sie auf der Support-Registrierungsseite nach der Seriennummer Ihrer Konto-ID.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenüs, in dem „Support“ die erste aufgeführte Option ist.</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Support-Registrierungssite von NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navigieren Sie zu<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> und wählen Sie *Ich bin kein registrierter NetApp -Kunde*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Füllen Sie die Pflichtfelder (mit roten Sternchen gekennzeichnet) aus.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Wählen Sie im Feld *Produktlinie* *Cloud Manager* und dann Ihren entsprechenden Abrechnungsanbieter aus.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Kopieren Sie die Seriennummer Ihres Kontos aus Schritt 2 oben, schließen Sie die Sicherheitsüberprüfung ab und bestätigen Sie anschließend, dass Sie die globale Datenschutzrichtlinie von NetApp gelesen haben.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Um diese sichere Transaktion abzuschließen, wird umgehend eine E-Mail an das angegebene Postfach gesendet. Überprüfen Sie unbedingt Ihren Spam-Ordner, wenn die Bestätigungs-E-Mail nicht innerhalb weniger Minuten eintrifft.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Bestätigen Sie die Aktion in der E-Mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">Durch die Bestätigung wird Ihre Anfrage an NetApp übermittelt und es wird empfohlen, dass Sie ein NetApp Support Site-Konto erstellen.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Denken Sie daran, die oben für das Seriennummernfeld verwendete Kontoseriennummer (960xxxx) zu kopieren. Dadurch wird die Bearbeitung beschleunigt.</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Nach Abschluss</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp sollte sich während dieses Vorgangs mit Ihnen in Verbindung setzen. Dies ist eine einmalige Onboarding-Übung für neue Benutzer.</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">Sobald Sie über Ihr NetApp Support Site-Konto verfügen, verknüpfen Sie das Konto mit Ihrem Konsolen-Login, indem Sie die folgenden Schritte ausführen<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">NSS-Anmeldeinformationen für Cloud Volumes ONTAP Support zuordnen</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Um die folgenden wichtigen Workflows für Cloud Volumes ONTAP zu aktivieren, müssen Sie Ihrem Konsolenkonto Anmeldeinformationen für die NetApp Support Site zuordnen:</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Registrieren von Pay-as-you-go Cloud Volumes ONTAP Systemen für den Support</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Die Angabe Ihres NSS-Kontos ist erforderlich, um den Support für Ihr System zu aktivieren und Zugriff auf die technischen Supportressourcen von NetApp zu erhalten.</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Bereitstellen von Cloud Volumes ONTAP mit eigener Lizenz (BYOL)</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">Die Angabe Ihres NSS-Kontos ist erforderlich, damit die Konsole Ihren Lizenzschlüssel hochladen und das Abonnement für die von Ihnen erworbene Laufzeit aktivieren kann. Hierzu gehören automatische Updates bei Laufzeitverlängerungen.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Aktualisieren der Cloud Volumes ONTAP -Software auf die neueste Version</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">Die Zuordnung von NSS-Anmeldeinformationen zu Ihrem NetApp Console unterscheidet sich von der Zuordnung des NSS-Kontos zu einer Konsolenbenutzeranmeldung.</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">Diese NSS-Anmeldeinformationen sind mit Ihrer spezifischen Konsolenkonto-ID verknüpft. Benutzer, die zur Konsolenorganisation gehören, können über *Support &gt; NSS-Verwaltung* auf diese Anmeldeinformationen zugreifen.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Wenn Sie über ein Partner- oder Reseller-Konto verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen, diese können jedoch nicht zusammen mit Konten auf Kundenebene hinzugefügt werden.</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Wählen Sie *NSS-Verwaltung &gt; NSS-Konto hinzufügen*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Wenn Sie dazu aufgefordert werden, wählen Sie *Weiter*, um zu einer Microsoft-Anmeldeseite weitergeleitet zu werden.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp verwendet Microsoft Entra ID als Identitätsanbieter für Authentifizierungsdienste speziell für Support und Lizenzierung.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Geben Sie auf der Anmeldeseite Ihre bei der NetApp Support Site registrierte E-Mail-Adresse und Ihr Kennwort ein, um den Authentifizierungsprozess durchzuführen.</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">Diese Aktionen ermöglichen der Konsole, Ihr NSS-Konto für Dinge wie Lizenzdownloads, Überprüfung von Software-Upgrades und zukünftige Support-Registrierungen zu verwenden.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Beachten Sie Folgendes:</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">Das NSS-Konto muss ein Konto auf Kundenebene sein (kein Gast- oder temporäres Konto). Sie können mehrere NSS-Konten auf Kundenebene haben.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Es kann nur ein NSS-Konto geben, wenn es sich bei diesem Konto um ein Konto auf Partnerebene handelt. Wenn Sie versuchen, NSS-Konten auf Kundenebene hinzuzufügen und ein Konto auf Partnerebene vorhanden ist, erhalten Sie die folgende Fehlermeldung:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">„Der NSS-Kundentyp ist für dieses Konto nicht zulässig, da bereits NSS-Benutzer eines anderen Typs vorhanden sind.“</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Dasselbe gilt, wenn Sie bereits über NSS-Konten auf Kundenebene verfügen und versuchen, ein Konto auf Partnerebene hinzuzufügen.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Nach erfolgreicher Anmeldung speichert NetApp den NSS-Benutzernamen.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Ein Symbol mit drei horizontalen Punkten</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Dies ist eine vom System generierte ID, die Ihrer E-Mail-Adresse zugeordnet ist. Auf der Seite *NSS-Verwaltung* können Sie Ihre E-Mail-Adresse aus dem<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Speisekarte.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Wenn Sie Ihre Anmeldeinformationen aktualisieren müssen, gibt es auch die Option *Anmeldeinformationen aktualisieren* im<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Speisekarte.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Bei Verwendung dieser Option werden Sie aufgefordert, sich erneut anzumelden. Beachten Sie, dass das Token für diese Konten nach 90 Tagen abläuft. Sie werden durch eine entsprechende Benachrichtigung darauf aufmerksam gemacht.</block>
+  <block id="d443b499b08143f5dc15517928770216" category="summary">Nachdem Sie S3-Buckets in der NetApp Console entdeckt haben, können Sie NetApp Datendienste für Backup, Tiering, Klassifizierung und Datensynchronisierung verwenden.</block>
+  <block id="49b9d9b89078e5e4f47991c877526750" category="doc">NetApp Datendienste mit S3-Buckets nutzen</block>
+  <block id="fbc9165bab5ddadb1c51f3b8583879a2" category="list-text">Verwenden Sie * NetApp Backup and Recovery*, um Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP -Systemen im S3-Objektspeicher zu sichern.</block>
+  <block id="27bde24ca56d18f8b44254361b5dfacf" category="paragraph">Um zu beginnen, gehen Sie zur Seite „Systeme“ und ziehen Sie per Drag &amp; Drop ein lokales ONTAP oder Cloud Volumes ONTAP -System auf Ihr Amazon S3-System.</block>
+  <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">Erfahren Sie mehr über die Sicherung von ONTAP -Daten im Amazon S3-Speicher</block>
+  <block id="36d69a6474503dc12eb03d9c3d0ae1da" category="paragraph"><block ref="9f57c6763aabcc8b098d417d73deda77" category="inline-link-rx"></block> .</block>
+  <block id="95dc1a377250c16a45ecb11cbfdf3135" category="list-text">Verwenden Sie * NetApp Cloud Tiering*, um inaktive Daten von lokalen ONTAP Clustern in den S3-Objektspeicher zu verschieben.</block>
+  <block id="610b3d16936c0360549876cfc01a37ab" category="paragraph">Um zu beginnen, gehen Sie zur Seite „Systeme“ und ziehen Sie per Drag &amp; Drop ein lokales ONTAP -System auf Ihr Amazon S3-System.</block>
+  <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">Erfahren Sie mehr über das Tiering von ONTAP -Daten in Amazon S3-Speicher</block>
+  <block id="294e46c1260f34e879a6aeff1996c09b" category="paragraph"><block ref="9a9a7aea1877db3b9eac1dc6a8ee9ad0" category="inline-link-rx"></block> .</block>
+  <block id="bf30e1dc167938e97c2591cd3c510944" category="list-text">Verwenden Sie * NetApp Copy and Sync*, um Daten mit oder von S3-Buckets zu synchronisieren.</block>
+  <block id="b742aa9d50ddb0f84621b9f8493784db" category="paragraph">Um zu beginnen, gehen Sie zur Seite „Systeme“ und ziehen Sie das Quellsystem per Drag &amp; Drop auf das Zielsystem.  Ihr Amazon S3-System kann entweder die Quelle oder das Ziel sein.</block>
+  <block id="2829616d2eba8bf258b08581862de08f" category="paragraph">Sie können auch Ihr Amazon S3-System auswählen und im Bereich „Dienste“ auf „Kopieren und synchronisieren“ klicken, um Daten mit oder von S3-Buckets zu synchronisieren.</block>
+  <block id="d676431aede5e4a521d5c713cc067177" category="inline-link">Erfahren Sie mehr über den NetApp Copy and Sync Service</block>
+  <block id="bedb81eb7ff8425f71336d8931e92105" category="paragraph"><block ref="60fd24ac1125a4c23b2db8c1cc3ed980" category="inline-link-rx"></block> .</block>
+  <block id="bbbf425db446e9a18580c235b40f3a05" category="list-text">Verwenden Sie * NetApp Data Classification*, um Ihre S3-Buckets nach persönlichen und vertraulichen Daten zu scannen.  NetApp Data Classification kann jeden Bucket im Konto scannen, unabhängig davon, ob er für eine NetApp -Lösung erstellt wurde.</block>
+  <block id="afc327ef29f55ac158f97fd2e57c9bcd" category="paragraph">Wählen Sie zunächst Ihr Amazon S3-System aus und wählen Sie die entsprechende Option im Abschnitt *Klassifizierung* des Service-Bedienfelds, um mit dem Scannen Ihrer S3-Buckets zu beginnen.</block>
+  <block id="326e2eb5669e5433c61a5000c39008d4" category="inline-link">Erfahren Sie mehr über den NetApp Data Classification Service</block>
+  <block id="e3cfe46184136fb25370ea007876c8ec" category="paragraph"><block ref="3509d5b138f91922d82b75e7cae94ee0" category="inline-link-rx"></block> .</block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">Bevor Sie einen Supportfall beim technischen Support von NetApp eröffnen können, müssen Sie der NetApp Console ein NetApp -Support-Site-Konto hinzufügen und sich dann für den Support registrieren.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Für Support registrieren</block>
+  <block id="24904df7e9008c61d33694a1bc30ed71" category="summary">Nachdem Sie einen Konsolenagenten in AWS installiert haben, kann die NetApp Console automatisch Informationen zu den Amazon S3-Buckets ermitteln, die sich im AWS-Konto befinden, auf dem der Konsolenagent installiert ist.  Ein Amazon S3-System wird der Seite „Systeme“ hinzugefügt, damit Sie diese Informationen anzeigen können.</block>
+  <block id="f7099ec977551c0bfc4264472c0bf927" category="doc">Anzeigen Ihrer Amazon S3-Buckets</block>
+  <block id="268e60750684585da8535ee06736af33" category="paragraph">Sie können Details zu Ihren S3-Buckets anzeigen, einschließlich Region, Zugriffsrichtlinie, Konto, Gesamt- und genutzte Kapazität und mehr.  Diese Buckets können als Ziele für NetApp -Backup und -Wiederherstellung, NetApp -Tiering oder NetApp Kopier- und Synchronisierungsvorgänge verwendet werden.  Darüber hinaus können Sie NetApp Data Classification verwenden, um diese Buckets zu scannen.</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">Installieren eines Konsolenagenten</block>
+  <block id="cbcef342dab0c01dc40b1fc286cacfef" category="list-text"><block ref="6a49923340dfe8e4d53dfc1a568ab789" category="inline-link-rx"></block>im AWS-Konto, in dem Sie Ihre Amazon S3-Buckets anzeigen möchten.</block>
+  <block id="68ab6a6d7a40667d53edebc13dbf3f3a" category="list-text">Wählen Sie im NetApp Console *Storage* und dann *Management* aus.</block>
+  <block id="8713a34f45c886b92e055232072e5c17" category="paragraph">Kurz darauf sollte Ihr Amazon S3-System automatisch angezeigt werden.</block>
+  <block id="86684b0bdfa40b5fc2b9ad768f823210" category="inline-image-macro">Ein Screenshot eines Amazon S3-Systems.</block>
+  <block id="c03a324b4d24c8d9a163e16b33bf776d" category="paragraph"><block ref="c03a324b4d24c8d9a163e16b33bf776d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="14bee838adfc88a7c71442c5aeac5e3b" category="list-text">Klicken Sie auf das System und wählen Sie im rechten Bereich eine Aktion aus, wenn Sie NetApp Console mit Ihrem S3-Speicher aktivieren möchten.</block>
+  <block id="9402251e996a1a9ec8966233a1a4e5e9" category="inline-link-macro">Sehen Sie, welche NetApp Console -Dienste verfügbar sind und erfahren Sie, wie Sie diese mit Ihren S3-Buckets verwenden.</block>
+  <block id="36725292108ca48226f28222e36bb925" category="paragraph"><block ref="c9d23c2637950d5f1b1df895263c4040" category="inline-link-macro-rx"></block> .</block>
+  <block id="2046f824b24cc2706fc7ed47a86ebafc" category="list-text">Klicken Sie auf *S3-System eingeben* oder doppelklicken Sie auf das System, um Details zu den S3-Buckets in Ihrem AWS-Konto anzuzeigen.</block>
+  <block id="7462056cb7ed96e8e2bfa335d78d9644" category="paragraph">Zusätzlich zu den standardmäßig angezeigten Spalten können Sie auf der Seite scrollen, um weitere Eigenschaften für den Bucket anzuzeigen, beispielsweise die Anzahl der Tags und ob die Objektsperre oder die Versionierung aktiviert wurden.</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">Hier finden Sie weitere Einzelheiten</block>
+  <block id="1ae823594c3c722bfffe0b458c0cc8c7" category="paragraph">Sie können einige Bucket-Einstellungen direkt in der NetApp Console ändern, indem Sie auf<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> für einen Eimer. <block ref="fb2338c21d7a6262957fb98c8ca54de1" category="inline-link-macro-rx"></block> .</block>
+  <block id="09939f5de1c156803c6295670449beb2" category="paragraph">Sie können neue S3-Buckets hinzufügen, indem Sie auf *Bucket hinzufügen* klicken. <block ref="24acb8e540fa67d1a53c15525bc66748" category="inline-link-macro-rx"></block> .</block>
+  <block id="50eccdd6e3280909836f3a550b5b1046" category="summary">Informieren Sie sich in der NetApp Console über die Neuerungen beim Amazon S3-Speicher.</block>
+  <block id="804352a77a25abfa823112d44e464706" category="doc">Was ist neu beim Amazon S3-Speicher in der NetApp Console?</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06. Oktober 2025</block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">05. März 2023</block>
+  <block id="1aada25bde50e6f700bae8f01a671280" category="sidebar">Beginnen Sie mit der Verwendung von Amazon S3-Speicher mit der NetApp Console.</block>
+  <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="sidebar">Amazon S3-Speicherdokumentation</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Erste Schritte</block>
+  <block id="e11597621f115e17031710501eefedbc" category="sidebar">Zeigen Sie Ihre Amazon S3-Buckets an</block>
+  <block id="fd1c68085eeae378471bac9bc817b052" category="sidebar">S3-Buckets verwalten</block>
+  <block id="9734d11f1da890ec7434857fd054fb47" category="sidebar">Bucket-Einstellungen ändern</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">Weitere Informationen</block>
+  <block id="59be372448aee79086ab0c21e2e7e595" category="sidebar">Amazon S3-Dokumentation für die Verwaltung außerhalb der NetApp Console</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs und Community</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetApp Console</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
+  <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Amazon S3-Speicherdokumente</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Versionshinweise</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Unterstützung</block>
+</blocks>

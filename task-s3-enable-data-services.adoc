@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-s3-enable-data-services.html 
 keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, 
-summary: Nachdem Sie S3-Buckets in der NetApp Konsole entdeckt haben, können Sie NetApp Datendienste für Backup, Tiering, Klassifizierung und Datensynchronisierung verwenden. 
+summary: Nachdem Sie S3-Buckets in der NetApp Console entdeckt haben, können Sie NetApp Datendienste für Backup, Tiering, Klassifizierung und Datensynchronisierung verwenden. 
 ---
 = NetApp Datendienste mit S3-Buckets nutzen
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Nachdem Sie S3-Buckets in der NetApp Konsole entdeckt haben, können Si
 
 
 [role="lead"]
-Nachdem Sie S3-Buckets in der NetApp Konsole entdeckt haben, können Sie NetApp Datendienste für Backup, Tiering, Klassifizierung und Datensynchronisierung verwenden.
+Nachdem Sie S3-Buckets in der NetApp Console entdeckt haben, können Sie NetApp Datendienste für Backup, Tiering, Klassifizierung und Datensynchronisierung verwenden.
 
 * Verwenden Sie * NetApp Backup and Recovery*, um Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP -Systemen im S3-Objektspeicher zu sichern.
 +
