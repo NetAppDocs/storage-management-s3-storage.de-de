@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: task-change-s3-bucket-settings.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Bucket-Eigenschaften direkt über die NetApp Konsole ändern. 
+---
+= S3-Bucket-Einstellungen ändern
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Ihr Amazon S3-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Bucket-Eigenschaften direkt über die NetApp Konsole ändern.
+
+Beachten Sie, dass Sie den Bucket-Namen, das AWS-Konto, die Region oder die Objektsperreinstellung nicht ändern können.
+
+Zu den Bucket-Eigenschaften, die Sie ändern können, gehören:
+
+* Ob die Versionierung für alle Objekte im Bucket aktiviert oder deaktiviert ist.
+* Sie können den zum Bucket hinzugefügten Objekten Tags zuweisen.
+* Ob neue, zum Bucket hinzugefügte Objekte verschlüsselt werden oder nicht, und die für die Verschlüsselung verwendete Option.
+
+
+Sie können diese Bucket-Einstellungen direkt ändern, indem Sie aufimage:button-horizontal-more.gif["die drei Punkte mehr-Schaltfläche"] für einen Eimer.
+
+image:screenshot-edit-amazon-s3-bucket.png["Ein Screenshot, der zeigt, wie Sie die Schaltfläche „Managerdetails“ auswählen, um Bucket-Eigenschaften zu bearbeiten."]
+
+
+
+== Ändern der Versionseinstellung
+
+Durch die Versionierung können Sie mehrere Versionen eines Objekts in einem Bucket aufbewahren, sodass Sie versehentlich gelöschte oder überschriebene Objekte wiederherstellen können.  Sie können die Versionseinstellung für zukünftige Objekte ändern, wenn diese zum Bucket hinzugefügt werden.  Durch das Ändern der Versionseinstellung wird der Wert für vorhandene Objekte nicht geändert.
+
+Die Versionierung ist in neuen Buckets standardmäßig deaktiviert, es sei denn, Sie haben die Objektsperre beim Erstellen des Buckets aktiviert. https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html["Weitere Informationen zur Versionierung finden Sie in der Amazon S3-Dokumentation."^] .
+
+Wenn diese Option aktiviert ist und Sie die Versionsverwaltung vorübergehend oder dauerhaft beenden möchten, können Sie den Status „Ausgesetzt“ auswählen.  Sie können die Versionierung nicht deaktivieren, nachdem sie aktiviert wurde.
+
+image:screenshot-amazon-s3-versioning.png["Ein Screenshot, der zeigt, wie die Versionseinstellung für einen Bucket geändert wird."]
+
+
+
+== Tags für Objekte im Bucket hinzufügen oder ändern
+
+Tags sind Metadaten, die Sie zum Gruppieren von Ressourcen verwenden können, um Anwendungen, Umgebungen, Regionen, Cloud-Anbieter und mehr zu identifizieren.  Tags bestehen aus einem Tag-Schlüssel und einem Tag-Wert.  Sie können einem Bucket Tags hinzufügen, sodass die Tags auf Objekte angewendet werden, wenn sie dem Bucket hinzugefügt werden.  Sie können auch Tags und Tag-Werte ändern und löschen.
+
+Tags sind in neuen Buckets, die von der NetApp Konsole erstellt werden, standardmäßig deaktiviert. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Weitere Informationen zum Tagging finden Sie in der Amazon S3-Dokumentation."^] .
+
+image:screenshot-amazon-s3-tags.png["Ein Screenshot, der zeigt, wie ein neues Tag-Schlüssel/Wert-Paar für einen Bucket hinzugefügt wird."]
+
+Nachdem Sie ein Tag hinzugefügt haben, klicken Sie auf *Übernehmen*, um Ihre Änderungen zu speichern.  Wenn Sie weitere Tags hinzufügen möchten, klicken Sie auf *Neues Tag hinzufügen*.  Sie können bis zu 10 Tags pro Bucket hinzufügen.
+
+
+
+== Ändern der Verschlüsselungseinstellungen
+
+Mit der serverseitigen Verschlüsselung können Sie Daten am Amazon S3-Ziel verschlüsseln.  Amazon S3 verschlüsselt Ihre Daten auf Objektebene, während es sie auf die Festplatte schreibt, und entschlüsselt sie für Sie, wenn Sie darauf zugreifen.  Sie können die für zukünftige Objekte verwendete Verschlüsselungseinstellung ändern, wenn diese zum Bucket hinzugefügt werden.
+
+Die Verschlüsselung wird standardmäßig mithilfe von „Amazon S3 Managed Keys (SSE-S3)“ in neuen Buckets aktiviert, die von der NetApp Konsole erstellt werden. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Weitere Informationen zur serverseitigen Verschlüsselung finden Sie in der Amazon S3-Dokumentation."^] .
+
+Alternativ können Sie die Verschlüsselung mit dem „AWS Key Management Service-Schlüssel (SSE-KMS)“ aktivieren.  Die Verschlüsselung ist auch mit Ihren eigenen, vom Kunden bereitgestellten Schlüsseln (SSE-C) möglich, diese Funktion ist jedoch über die Konsolen-Benutzeroberfläche nicht verfügbar – Sie müssen die Amazon-Schnittstelle verwenden.
+
+image:screenshot-amazon-s3-encryption1.png["Ein Screenshot, der zeigt, wie der für einen Bucket verwendete Verschlüsselungsschlüsseltyp geändert wird."]
+
+Wenn Sie „AWS Key Management Service-Schlüssel (SSE-KMS)“ wählen, können Sie einen bereits erstellten AWS KMS-Schlüssel auswählen oder einen AWS KMS-Schlüssel-ARN (Amazon Resource Name) verwenden.
+
+image:screenshot-amazon-s3-encryption2.png["Ein Screenshot, der zeigt, wie alternative Verschlüsselungseinstellungen für einen Bucket ausgewählt werden."]
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html["Weitere Informationen zum AWS Key Management Service finden Sie in der Amazon S3-Dokumentation."^]und über https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt["Verwenden von Kundenschlüsseln im Vergleich zu AWS-Schlüsseln"^] .
