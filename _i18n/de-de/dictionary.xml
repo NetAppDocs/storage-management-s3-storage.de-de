@@ -180,7 +180,6 @@
   <block id="bbbf425db446e9a18580c235b40f3a05" category="list-text">Verwenden Sie * NetApp Data Classification*, um Ihre S3-Buckets nach persönlichen und vertraulichen Daten zu scannen.  NetApp Data Classification kann jeden Bucket im Konto scannen, unabhängig davon, ob er für eine NetApp -Lösung erstellt wurde.</block>
   <block id="afc327ef29f55ac158f97fd2e57c9bcd" category="paragraph">Wählen Sie zunächst Ihr Amazon S3-System aus und wählen Sie die entsprechende Option im Abschnitt *Klassifizierung* des Service-Bedienfelds, um mit dem Scannen Ihrer S3-Buckets zu beginnen.</block>
   <block id="326e2eb5669e5433c61a5000c39008d4" category="inline-link">Erfahren Sie mehr über den NetApp Data Classification Service</block>
-  <block id="e3cfe46184136fb25370ea007876c8ec" category="paragraph"><block ref="3509d5b138f91922d82b75e7cae94ee0" category="inline-link-rx"></block> .</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">Bevor Sie einen Supportfall beim technischen Support von NetApp eröffnen können, müssen Sie der NetApp Console ein NetApp -Support-Site-Konto hinzufügen und sich dann für den Support registrieren.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Für Support registrieren</block>
   <block id="24904df7e9008c61d33694a1bc30ed71" category="summary">Nachdem Sie einen Konsolenagenten in AWS installiert haben, kann die NetApp Console automatisch Informationen zu den Amazon S3-Buckets ermitteln, die sich im AWS-Konto befinden, auf dem der Konsolenagent installiert ist.  Ein Amazon S3-System wird der Seite „Systeme“ hinzugefügt, damit Sie diese Informationen anzeigen können.</block>
@@ -219,4 +218,5 @@
   <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Amazon S3-Speicherdokumente</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Versionshinweise</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Unterstützung</block>
+  <block id="38e4a6ea124be3ae85f0c5c913bd80a7" category="paragraph"><block ref="b2391610bf85b5dbfe9880f4b5f5c77d" category="inline-link-rx"></block>.</block>
 </blocks>
